@@ -39,6 +39,7 @@
 			isa = PBXGroup;
 			children = (
 				EF4F70FC22C440A400E4DB9F /* ScatterAndGather */,
+				EF4F711022C4437300E4DB9F /* Resources */,
 				EF4F70FB22C440A400E4DB9F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,14 +55,53 @@
 		EF4F70FC22C440A400E4DB9F /* ScatterAndGather */ = {
 			isa = PBXGroup;
 			children = (
-				EF4F70FD22C440A400E4DB9F /* AppDelegate.swift */,
-				EF4F70FF22C440A400E4DB9F /* ViewController.swift */,
-				EF4F710122C440A400E4DB9F /* Main.storyboard */,
-				EF4F710422C440A500E4DB9F /* Assets.xcassets */,
-				EF4F710622C440A500E4DB9F /* LaunchScreen.storyboard */,
-				EF4F710922C440A500E4DB9F /* Info.plist */,
+				EF4F711222C443C400E4DB9F /* Models */,
+				EF4F711322C443CB00E4DB9F /* Model Controllers */,
+				EF4F710F22C4434D00E4DB9F /* View Controllers */,
+				EF4F711122C4439500E4DB9F /* Storyboards */,
 			);
 			path = ScatterAndGather;
+			sourceTree = "<group>";
+		};
+		EF4F710F22C4434D00E4DB9F /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F70FF22C440A400E4DB9F /* ViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		EF4F711022C4437300E4DB9F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F70FD22C440A400E4DB9F /* AppDelegate.swift */,
+				EF4F710422C440A500E4DB9F /* Assets.xcassets */,
+				EF4F710922C440A500E4DB9F /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EF4F711122C4439500E4DB9F /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F710122C440A400E4DB9F /* Main.storyboard */,
+				EF4F710622C440A500E4DB9F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		EF4F711222C443C400E4DB9F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EF4F711322C443CB00E4DB9F /* Model Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Model Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -284,7 +324,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SBB8C9E36E;
-				INFOPLIST_FILE = ScatterAndGather/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,7 +342,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = SBB8C9E36E;
-				INFOPLIST_FILE = ScatterAndGather/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
